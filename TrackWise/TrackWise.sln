@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{B44A6ADB-E179-42ED-B162-607E736DF33D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VehicleService", "VehicleService", "{C05F479C-70CE-4D75-9D2F-C3CD0FB71484}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackWise.Vehicle.Domain", "services\VehicleService\TrackWise.Vehicle.Domain\TrackWise.Vehicle.Domain.csproj", "{A0732F76-C431-455B-8463-61467530715D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackWise.Vehicle.Application", "services\VehicleService\TrackWise.Vehicle.Application\TrackWise.Vehicle.Application.csproj", "{938EB8C4-18FE-4D97-BD92-F7B854923B4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackWise.Vehicle.Infrastructure", "services\VehicleService\TrackWise.Vehicle.Infrastructure\TrackWise.Vehicle.Infrastructure.csproj", "{96EC80F6-F2E7-46D5-AD33-CE698EB6CB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackWise.Vehicle.API", "services\VehicleService\TrackWise.Vehicle.API\TrackWise.Vehicle.API.csproj", "{395A383D-8566-42C8-96CE-D3B69B9C6F7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0732F76-C431-455B-8463-61467530715D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0732F76-C431-455B-8463-61467530715D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0732F76-C431-455B-8463-61467530715D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0732F76-C431-455B-8463-61467530715D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938EB8C4-18FE-4D97-BD92-F7B854923B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938EB8C4-18FE-4D97-BD92-F7B854923B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938EB8C4-18FE-4D97-BD92-F7B854923B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938EB8C4-18FE-4D97-BD92-F7B854923B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96EC80F6-F2E7-46D5-AD33-CE698EB6CB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EC80F6-F2E7-46D5-AD33-CE698EB6CB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EC80F6-F2E7-46D5-AD33-CE698EB6CB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EC80F6-F2E7-46D5-AD33-CE698EB6CB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395A383D-8566-42C8-96CE-D3B69B9C6F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395A383D-8566-42C8-96CE-D3B69B9C6F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395A383D-8566-42C8-96CE-D3B69B9C6F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395A383D-8566-42C8-96CE-D3B69B9C6F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C05F479C-70CE-4D75-9D2F-C3CD0FB71484} = {B44A6ADB-E179-42ED-B162-607E736DF33D}
+		{A0732F76-C431-455B-8463-61467530715D} = {C05F479C-70CE-4D75-9D2F-C3CD0FB71484}
+		{938EB8C4-18FE-4D97-BD92-F7B854923B4F} = {C05F479C-70CE-4D75-9D2F-C3CD0FB71484}
+		{96EC80F6-F2E7-46D5-AD33-CE698EB6CB90} = {C05F479C-70CE-4D75-9D2F-C3CD0FB71484}
+		{395A383D-8566-42C8-96CE-D3B69B9C6F7D} = {C05F479C-70CE-4D75-9D2F-C3CD0FB71484}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {726B5262-6DA1-4444-896B-38FAF31DA3B0}
+	EndGlobalSection
+EndGlobal
